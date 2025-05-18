@@ -50,9 +50,9 @@ const AboutDetails = () => {
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Eco-Friendly Solutions */}
             <div className="flex items-center">
-              <FaSeedling className="text-green-600 text-5xl mr-4" />
+              <FaSeedling className="text-accent text-5xl mr-4" />
               <div>
-                <h3 className="text-xl font-semibold text-accent">
+                <h3 className="text-xl font-semibold ">
                   Eco-Friendly Solutions
                 </h3>
                 <p className="text-gray-600">
@@ -63,11 +63,9 @@ const AboutDetails = () => {
 
             {/* Global Standards */}
             <div className="flex items-center">
-              <FaGlobeAmericas className="text-green-600 text-5xl mr-4" />
+              <FaGlobeAmericas className="text-accent text-5xl mr-4" />
               <div>
-                <h3 className="text-xl font-semibold text-accent">
-                  Global Standards
-                </h3>
+                <h3 className="text-xl font-semibold">Global Standards</h3>
                 <p className="text-gray-600">
                   Our approach aligns with international best practices.
                 </p>
@@ -76,9 +74,9 @@ const AboutDetails = () => {
 
             {/* Customer-Centric Approach */}
             <div className="flex items-center">
-              <FaHandHoldingHeart className="text-green-600 text-5xl mr-4" />
+              <FaHandHoldingHeart className="text-accent text-5xl mr-4" />
               <div>
-                <h3 className="text-xl font-semibold text-accent">
+                <h3 className="text-xl font-semibold ">
                   Customer-Centric Approach
                 </h3>
                 <p className="text-gray-600">
@@ -90,11 +88,9 @@ const AboutDetails = () => {
 
             {/* Professional Tools */}
             <div className="flex items-center">
-              <FaTools className="text-green-600 text-5xl mr-4" />
+              <FaTools className="text-accent text-5xl mr-4" />
               <div>
-                <h3 className="text-xl font-semibold text-accent">
-                  Professional Tools
-                </h3>
+                <h3 className="text-xl font-semibold ">Professional Tools</h3>
                 <p className="text-gray-600">
                   We use top-of-the-line equipment for the highest quality
                   results.
@@ -104,9 +100,9 @@ const AboutDetails = () => {
 
             {/* Recycling & Waste Reduction */}
             <div className="flex items-center">
-              <FaRecycle className="text-green-600 text-5xl mr-4" />
+              <FaRecycle className="text-accent text-5xl mr-4" />
               <div>
-                <h3 className="text-xl font-semibold text-accent">
+                <h3 className="text-xl font-semibold">
                   Recycling & Waste Reduction
                 </h3>
                 <p className="text-gray-600">
@@ -118,11 +114,9 @@ const AboutDetails = () => {
 
             {/* Innovative Designs */}
             <div className="flex items-center">
-              <FaLeaf className="text-green-600 text-5xl mr-4" />
+              <FaLeaf className="text-accent text-5xl mr-4" />
               <div>
-                <h3 className="text-xl font-semibold text-accent">
-                  Innovative Designs
-                </h3>
+                <h3 className="text-xl font-semibold">Innovative Designs</h3>
                 <p className="text-gray-600">
                   Our designs focus on creativity and innovation, ensuring your
                   outdoor space stands out.

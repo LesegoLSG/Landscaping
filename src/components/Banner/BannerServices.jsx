@@ -7,6 +7,18 @@ import maintenance from "../../assets/Images/BannerImages/maintenance.png";
 // Sample data for banner services
 const bannerData = [
   {
+    icon: landscape,
+    header: "Indoor Cleaning",
+    subheader:
+      "Comprehensive cleaning for offices, restrooms, kitchens, and all interior spaces.",
+  },
+  {
+    icon: landscape,
+    header: "Outdoor Cleaning",
+    subheader:
+      "Exterior care including tidying, pathway sweeping, and pressure washing.",
+  },
+  {
     icon: gardener,
     header: "Gardening",
     subheader: "We do garden for outdoors services",
@@ -14,23 +26,13 @@ const bannerData = [
   {
     icon: landscape,
     header: "Landscaping",
-    subheader: "We create beautiful landscapes for your yard",
-  },
-  {
-    icon: landscapedesign,
-    header: "Maintenance",
-    subheader: "We maintain your garden and landscaping",
-  },
-  {
-    icon: maintenance,
-    header: "Landscape Design",
-    subheader: "We design custom landscapes to fit your needs",
+    subheader: "We create and maintain beautiful landscapes for your yard",
   },
 ];
 
 const BannerServices = () => {
   return (
-    <div className="w-full bg-secondary flex flex-col md:flex-row justify-center gap-6 px-2 py-2">
+    <div className="w-full bg-backgroundAlt flex flex-col md:flex-row justify-center gap-6 px-2 py-2">
       {bannerData.map((service, index) => (
         <div
           key={index}

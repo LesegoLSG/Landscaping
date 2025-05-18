@@ -2,12 +2,21 @@
 
 
 /* src/index.css */
-@theme {
+/* @theme {
   --color-primary: #3de351;
   --color-secondary:#136331 ;
   --color-accent: #a36416;
   --color-neutral: #84A7A1;
-}
+} */
+
+@theme {
+  --color-primary: #136331; 
+  --color-accent: #a36416;
+  --color-text: 	#FFFFFF;
+  --color-textAlt: #171717;
+  --color-background: #F5F5F5;
+  --color-backgroundAlt: #1c4966;
+} 
 
 
 
